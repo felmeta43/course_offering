@@ -9,6 +9,6 @@ if($conn)
 }
 else
 {
-  echo "unable to connect to database";
+  die( "unable to connect to database");
 }
 ?>
